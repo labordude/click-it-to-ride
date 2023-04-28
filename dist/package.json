@@ -2,12 +2,10 @@
   "name": "click-it-to-ride",
   "version": "0.1",
   "description": "click-it-to-ride student project",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    // "build": "postcss ./src/style.css -o ./dist/style.css",
-    // "watch": "tailwind build -i ./src/style.css -o ./dist/style.css -w",
-    "dev": "NODE_ENV=development node server.js",
-    "start": "NODE_ENV=production node server.js"
+    "dev": "node server.js",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
