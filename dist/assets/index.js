@@ -192,7 +192,7 @@ addEventListener("DOMContentLoaded", () => {
    * ********VARIABLE DECLARATION START*********/
 
   // https://{cdn-instance}.imagin.studio/{api-name}?customer={customer-key}&{query parameters}
-  const imaginUrl = `https://cdn.imagin.studio/getImage?customer=${process.env.apikey}&`;
+  const imaginUrl = `https://cdn.imagin.studio/getImage?customer=${config.apikey}&`;
   const carsUrl = "http://localhost:3000/cars";
   const search = document.querySelector(".search-box");
   const menu = document.querySelector(".navbar");
