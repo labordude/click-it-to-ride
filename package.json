@@ -18,6 +18,7 @@
     "tailwindcss": "^3.3.1"
   },
   "devDependencies": {
+    "@vercel/node": "^2.9.6",
     "json-server": "^0.17.3"
   }
 }
