@@ -4,7 +4,6 @@
   "description": "click-it-to-ride student project",
   "main": "server.js",
   "scripts": {
-    "dev": "node server.js",
     "start": "node server.js"
   },
   "keywords": [],

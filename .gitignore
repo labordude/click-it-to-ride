@@ -9182,3 +9182,9 @@ node_modules/yocto-queue/index.js
 node_modules/yocto-queue/license
 node_modules/yocto-queue/package.json
 node_modules/yocto-queue/readme.md
+node_modules/clone/.npmignore
+node_modules/clone/clone.iml
+node_modules/clone/clone.js
+node_modules/clone/LICENSE
+node_modules/clone/package.json
+node_modules/clone/README.md
