@@ -1,0 +1,23 @@
+{
+  "name": "click-it-to-ride",
+  "version": "0.1",
+  "description": "click-it-to-ride student project",
+  "main": "index.js",
+  "scripts": {
+    // "build": "postcss ./src/style.css -o ./dist/style.css",
+    // "watch": "tailwind build -i ./src/style.css -o ./dist/style.css -w",
+    "dev": "NODE_ENV=development node server.js",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.1"
+  },
+  "devDependencies": {
+    "json-server": "^0.17.3"
+  }
+}
