@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "postcss ./src/style.css -o ./dist/style.css",
-    "watch": "tailwind build -i ./src/style.css -o ./dist/style.css -w"
+    "watch": "tailwind build -i ./src/style.css -o ./dist/style.css -w",
+    "dev": "NODE_ENV=development node ./dist/assets/server.js",
+    "start": "NODE_ENV=production node ./dist/assets/server.js"
   },
   "keywords": [],
   "author": "",

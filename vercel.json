@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "./dist/assets/server.js",
+      "use": "@vercel/node",
+      "config": {
+        "includeFiles": ["./dist/assets/db.json"]
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "./dist/assets/index.js"
+    }
+  ]
+}
